@@ -22,6 +22,7 @@
 
         <?php
 
+
         $titles = getCategoryTitles(10);
 
         ?>
