@@ -62,7 +62,7 @@ function getPosts($tag) {
 
 function getCategoryData($limit) {
     $query;
-    if ($limit > -1) {
+    if ($limit <= -1) {
         $query = "SELECT * FROM categories";
     }
     else {

@@ -14,7 +14,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <?php
-                
+
                 $titles = getCategoryTitles();
 
                 foreach ($titles as $title) {
@@ -22,6 +22,8 @@
                 }
 
                 ?>
+
+                <li><a href="admin">Admin</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
